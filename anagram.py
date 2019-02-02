@@ -30,20 +30,20 @@ for i in perms:
         elif(len(i)==7):
             seven_letter.append(i)
 print("Two Letter Words :")
-for i in two_letter:
+for i in set(two_letter):
     print(i,end=' ')
 print("\nThree Letter Words :")
-for i in three_letter:
+for i in set(three_letter):
     print(i,end=' ')
 print("\nFour Letter Words :")
-for i in four_letter:
+for i in set(four_letter):
     print(i,end=' ')
 print("\nFive Letter Words :")
-for i in five_letter:
+for i in set(five_letter):
     print(i,end=' ')
 print("\nSix Letter Words :")
-for i in six_letter:
+for i in set(six_letter):
     print(i,end=' ')
 print("\nSeven Letter Words :")
-for i in seven_letter:
+for i in set(seven_letter):
     print(i,end=' ')
